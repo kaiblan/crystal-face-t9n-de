@@ -1,7 +1,6 @@
 <strings>
 
 	<string id="AppName">Crystal</string>
-	<string id="AppVersionTitle">App Version</string>
 
 	<string id="ThemeTitle">Theme</string>
 	<string id="HoursColourTitle">Stunden Farbe</string>
@@ -14,8 +13,11 @@
 	<string id="LocalTimeInCityTitle">Städtische Lokalzeit hinzufügen (Beta)</string>
 	<string id="MoveBarStyleTitle">Move Bar Style</string>
 	<string id="HideSecondsTitle">Sekunden ausblenden</string>
+	<string id="HideSecondsOff">Sekunden anzeigen</string>
+	<string id="HideSecondsLowPower">Sekunden ausblenden wenn inaktiv</string>
+	<string id="HideSecondsAlways">Sekunden immer ausblenden</string>
 	<string id="HideHoursLeadingZeroTitle">Führende Nullen ausblenden</string>
-	<string id="OWMKeyOverride">OpenWeatherMap API Key Override</string><!-- TODO_TRANSLATE -->
+	<string id="AddColon">Doppelpunkt zwischen Stunden und Minuten</string>
 
 	<string id="FieldCountTitle">Anzahl der Datenfelder</string>
 	<string id="DataField1Title">Datenfeld 1</string>
@@ -53,30 +55,35 @@
 	<string id="ThemeRedLight">Rot (Hell)</string>
 	<string id="ThemeGreenLight">Grün (Hell)</string>
 	<string id="ThemeDaygloOrangeLight">Dayglo Orange (Hell)</string>
-	<string id="ThemeCornYellowDark">Korngelb (Dunkel)</string>
+	<string id="ThemeCornYellowDark">Maisgelb (Dunkel)</string>
 
 	<string id="Steps">Schritte</string>
 	<string id="FloorsClimbed">Stockwerke</string>
+	<string id="SolarIntensity">Solarintensität</string>
+	<string id="BodyBattery">Body Battery</string>
+	<string id="RecoveryTime">Erholungszeit</string>
 	<string id="ActiveMinutes">Aktive Minuten (Wöchentlich)</string>
 	<string id="CaloriesManualGoal">Kalorien (manuelles Ziel)</string>
+	<string id="ActiveCaloriesManualGoal">Aktive Kalorien (manuelles Ziel)</string>
 	<string id="Off">Aus</string>
 
 	<string id="HeartRate">Herzfrequenz</string>
 	<string id="HeartRateLive5s">Herzfrequenz (Live 5s)</string>
-	<string id="Battery">Batterie</string>
-	<string id="BatteryHidePercentage">Batterie (Prozente ausgeblendet)</string>
-	<string id="Notifications">Hinweise</string>
+	<string id="Battery">Batterie (Icon + Prozent)</string>
+	<string id="BatteryHidePercentage">Batterie (nur Icon)</string>
+	<string id="Notifications">Benachrichtigungen</string>
 	<string id="Calories">Kalorien</string>
+	<string id="ActiveCalories">Aktive Kalorien</string>
 	<string id="Distance">Distanz</string>
 	<string id="Alarms">Alarme</string>
 	<string id="Altitude">Höhe</string>	
-	<string id="Temperature">Thermometer</string>
+	<string id="Temperature">Temperatur</string>
 	<string id="Bluetooth">Bluetooth</string>
-	<string id="BluetoothOrNotifications">Bluetooth/Hinweise</string>
+	<string id="BluetoothOrNotifications">Bluetooth/Benachrichtigungen</string>
 	<string id="SunriseSunset">Sonnenaufgang/Sonnenuntergang</string>
 	<string id="Weather">Wetter</string>
-	<string id="Humidity">Feuchtigkeit</string>
-	<string id="Pressure">Druck</string>
+	<string id="Humidity">Luftfeuchtigkeit</string>
+	<string id="Pressure">Luftdruck</string>
 
 	<!-- Internal use only. Required because fonts cannot be overridden by locale. Leave blank for no override. -->
 	<string id="DATE_FONT_OVERRIDE"></string>	
@@ -102,4 +109,23 @@
 	<string id="Nov">Nov</string>
 	<string id="Dec">Dez</string>
 
+	<!-- TODO_TRANSLATE -->
+	<string id="BatteryNumeric">Batterie Prozent</string>
+	<string id="PulseOx">Pulse Ox</string>
+	<string id="Tesla">Tesla Info</string>
+	<string id="TeslaAccessToken">Tesla Access Token</string>
+	<string id="TeslaRefreshToken">Tesla Refresh Token</string>
+    <string id="Tesla_api_server_location_label">Tesla API-Server</string>
+    <string id="Tesla_auth_server_location_label">Tesla Authentifizierungs-Server</string>
+    <string id="Tesla_server_location_prompt">Domainname des Servers</string>
+	<string id="DND">Do Not Disturb</string>
+	<string id="ThemeOverride">RGB Theme überschreiben</string>
+	<string id="ThemeOverridePrompt">Hexadezimaler Wert im Format RRGGBB. Wenn der Wert nicht 0 ist, wird diese Farbkombination statt des Themes verwendet</string>
+	<string id="ThemeLightOverride">Helles Theme überschreiben</string>
+	<string id="StressLevel">Stresslevel</string>
+	<string id="UseComplications">Komplikationen verwenden wenn verfügbar</string>
+	<string id="TeslaLink">Get Tesla info from Tesla-Link Complications</string>
+	<string id="TeslaVehicleIndex">Welches Fahrzeug soll angezeigt werden?</string>
+	<string id="ShowWeatherStationName">Name der Wetterstation anzeigen?</string>
+	<string id="ComplicationName">Lange Bezeichnung der Komplikation</string>
 </strings>
